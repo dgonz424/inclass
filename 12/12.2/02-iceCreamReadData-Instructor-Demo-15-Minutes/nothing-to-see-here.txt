@@ -1,0 +1,1 @@
+So, how do we read data from the database with node mysql npm?

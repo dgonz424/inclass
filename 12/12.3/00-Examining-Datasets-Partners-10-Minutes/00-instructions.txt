@@ -1,0 +1,11 @@
+Look through TopSongs.csv - this is the dataset they will be working with today.
+It contains 5000 lines of music data within it.
+Reading the first from left to right, we have:
+Columns containing the artist name; song name; year; raw popularity score for the song from the entire world; and
+then one column for each of the raw popularity scores for the song from the USA; UK; Europe ﴾i.e., non‐English
+speaking countries in Europe﴿; and the rest of the world, respectively.
+"Raw score" numbers reflect the "total value of music industry sales", where a higher raw score indicates
+a greater volume of sales.
+Working in pairs, come up with how they might go about creating a database/table for this data.
+
+Be prepared to share.

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Javascript template</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">    
+</head>
+<body>
+  <div class="container">
+    <h1>Page h1</h1>
+  </div>
+  <script type="text/javascript">
+	var textToSplit = "Howdy\n\nI'm Dan\n\n\nI live in Florida\n\n\n\n";
+	var re1 = /[\n]{1,}/;
+	var splitText = textToSplit.split(re1);
+	for (var i=0; i<splitText.length; i++) {
+		console.log(i + ": " + splitText[i]);
+	}
+  </script>
+</body>
+</html>

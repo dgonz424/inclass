@@ -1,0 +1,8 @@
+What is the average forward velocity of a coconut-laden swallow?
+
+oh CRUD!
+
+CREATE
+READ
+UPDATE
+DELETE
